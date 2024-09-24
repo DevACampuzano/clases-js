@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" />
+        <label for="mail">Correo:</label>
+        <input type="email" id="mail" name="mail" />
+        <label for="pregunta1">Javascript es un lenguaje de?</label>
+        <div id="pregunta1" class="preguntas">
+          <label for="res1">
+            <input type="radio" id="res1" name="pregunta1" value="alto" />
+            Alto nivel
+          </label>
+          <label for="res2">
+            <input type="radio" id="res2" name="pregunta1" value="medio" />
+            Medio nivel
+          </label>
+          <label for="res3">
+            <input type="radio" id="res3" name="pregunta1" value="bajo" />
+            Bajo nivel
+          </label>
+        </div>
+
+        <label for="pregunta2">Javascript es un lenguaje?</label>
+        <div id="pregunta2" class="preguntas">
+          <label for="res1">
+            <input type="radio" id="res1" name="pregunta2" value="tipado" />
+            es un lenguaje tipado
+          </label>
+          <label for="res2">
+            <input type="radio" id="res2" name="pregunta2" value="flexible" />
+            es un lenguaje flexible
+          </label>
+        </div>
+        <button type="submit">enviar</button>
+      </form>
+      <p id="log"></p>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
