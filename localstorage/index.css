@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  background-color: #f0f0f0;
+}
